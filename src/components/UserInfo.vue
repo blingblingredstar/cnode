@@ -21,7 +21,8 @@
                   id: reply.id
                 }
               }"
-            >{{ reply.title }}</router-link>
+              >{{ reply.title }}</router-link
+            >
           </li>
         </ul>
       </div>
@@ -36,7 +37,8 @@
                   id: topic.id
                 }
               }"
-            >{{ topic.title }}</router-link>
+              >{{ topic.title }}</router-link
+            >
           </li>
         </ul>
       </div>
@@ -65,9 +67,6 @@ export default {
           }
           this.isLoading = false;
           this.userInfo = res.data.data;
-        })
-        .catch(err => {
-          console.log(err);
         });
     }
   },

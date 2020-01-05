@@ -8,7 +8,9 @@
       :key="page"
       :class="[{ currentPage: page === currentPage }, 'pagebtn']"
       @click="changePage(page)"
-    >{{ page }}</button>
+    >
+      {{ page }}
+    </button>
     <button @click="changePage('next')">下一页</button>
   </div>
 </template>

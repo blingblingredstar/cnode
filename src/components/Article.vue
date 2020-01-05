@@ -16,7 +16,11 @@
       </div>
       <div id="reply">
         <div class="topbar">回复</div>
-        <div v-for="(reply, index) in post.replies" :key="reply.id" class="replySec">
+        <div
+          v-for="(reply, index) in post.replies"
+          :key="reply.id"
+          class="replySec"
+        >
           <div class="replyUp">
             <router-link
               :to="{

@@ -25,7 +25,8 @@
                 name: topic.author.loginname
               }
             }"
-          >{{ topic.title }}</router-link>
+            >{{ topic.title }}</router-link
+          >
         </li>
       </ul>
     </div>
@@ -41,7 +42,8 @@
                 name: reply.author.loginname
               }
             }"
-          >{{ reply.title }}</router-link>
+            >{{ reply.title }}</router-link
+          >
         </li>
       </ul>
     </div>
